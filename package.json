@@ -1,0 +1,21 @@
+{
+  "name": "convert-slash-exec",
+  "version": "0.0.1",
+  "description": "NPM utility to execute commands regardless of path seperators",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fatso83/convert-slash-exec.git"
+  },
+  "author": "Carl-Erik Kopseng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatso83/convert-slash-exec/issues"
+  },
+  "homepage": "https://github.com/fatso83/convert-slash-exec#readme"
+}
