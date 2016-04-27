@@ -24,5 +24,5 @@ and in the second example the prefix will be removed.
 
 ## In the wild
 [`razor-cli`](https://github.com/fatso83/razor-cli-node) is a cross-platform NPM module that can compile Razor templates. In [its package.json](https://github.com/fatso83/razor-cli-node/blob/8f30ca04a1c595e5cf4c2d80849e1c9cdf6ec3a3/package.json#L11) you can 
-see that it invoket `./nuget` to download its .NET dependencies. That command will invoke 
+see that it invokes `./nuget` to download the .NET assemblies. That command will invoke 
 a `./nuget` shell script on Mac and Linux while on Windows it will run the `nuget.exe` command.
