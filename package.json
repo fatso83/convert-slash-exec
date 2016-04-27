@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "NPM utility to execute commands regardless of path seperators",
   "main": "index.js",
+  "bin": "index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
