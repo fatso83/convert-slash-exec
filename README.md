@@ -22,3 +22,7 @@ convert-slash-exec ./my-command
 This will simply execute those commands as usual on Unices, but in the first case all slashes will become backslashes
 and in the second example the prefix will be removed.
 
+## In the wild
+[`razor-cli`](https://github.com/fatso83/razor-cli-node) is a cross-platform NPM module that can compile Razor templates. In [itspackage.json] you can 
+see that it invoket `./nuget` to download its .NET dependencies. That command will invoke 
+a `./nuget` shell script on Mac and Linux while on Windows it will run the `nuget.exe` command.
