@@ -1,6 +1,6 @@
 {
   "name": "convert-slash-exec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NPM utility to execute commands regardless of path seperators",
   "main": "index.js",
   "bin": "index.js",
